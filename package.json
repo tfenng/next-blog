@@ -6,6 +6,7 @@
     "start": "next start -p 3000 -H 0.0.0.0"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
     "date-fns": "^4.1.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
@@ -16,5 +17,10 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10"
   }
 }
