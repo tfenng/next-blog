@@ -35,7 +35,6 @@ export default function Home({ allPostsData,picNum }) {
               ))}
           </ul>
       </section>
-        <Image src={`https://yavuzceliker.github.io/sample-images/image-${picNum}.jpg`} alt="Picture of random scene" width={640} height={480}/>
         <Footer />
     </Layout>
   );
